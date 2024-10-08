@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHYSICS </title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"  rel="stylesheet" />
+    
+  </head>
+  
+   
+        <body style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);">
+       <style>
+        /* Styling the video grid */
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 20px;
+        }
+        /* Ensuring responsiveness */
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        @media (max-width: 768px) {
+            .video-container {
+                grid-template-columns: repeat(2, 1fr); /* 2 videos per row for smaller screens */
+            }
+        }
+        @media (max-width: 480px) {
+            .video-container {
+                grid-template-columns: 1fr; /* 1 video per row for very small screens */
+            }
+        }
+    </style>
+ 
+              
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="IT.jpg" class="h-8" alt="Flowbite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">IT CLUB</span>
+          </a>
+          <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+              </li>
+ 
+              <li>
+                <a href="chemistry.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Chemistry</a>
+              </li>
+              <li>
+                <a href="phy.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Physics</a>
+              </li>
+              <li>
+                <a href="csip.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CS/IP</a>
+              </li>
+              <li>
+                <a href="maths.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Mathematics</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="indicators-carousel" class="relative w-full" data-carousel="static" >
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+             <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="physics.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." style="width: 80%; height: 90%;" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="phy2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." style="width: 80%; height: 90%;" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="phy3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." style="width: 80%; height: 90%;" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="phy4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." style="width: 80%; height: 90%;" alt="...">
+            </div>
+            <!-- Item 5 -->
+        </div>
+            <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2" >
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black/30 group-hover:bg-black/50 group-focus:ring-4 group-focus:ring-gray-700">
+                <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black/30 group-hover:bg-black/50 group-focus:ring-4 group-focus:ring-gray-700">
+                <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l4-4L1 1"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+    <br>
+    <section class="bg-white-100 py-10 px-6" style="margin-top: 25px;">
+      <div class="max-w-screen-lg mx-auto text-center">
+        <h2 class="text-4xl font-bold text-RED-700 mb-4;font-weight: bold;" style="color: white;">ABOUT PHYSICS</h2>
+        <br><br>
+        <p class="text-lg text-white-600 leading-relaxed mb-6" style="font-size: 25px; color: white; font-weight: bold;">
+          About Physics is a fundamental branch of science that explores the nature and properties of matter and energy. It seeks to understand the underlying principles governing the physical universe, from the smallest subatomic particles to the largest galaxies. At its core, physics is concerned with concepts such as motion, force, energy, and the laws that dictate how objects interact. These concepts provide a framework for analyzing and predicting various physical phenomena, making physics essential for understanding the world around us.
+
+          One of the key areas of study in physics is mechanics, which deals with the motion of objects and the forces acting upon them. Mechanics encompasses topics like kinematics, which describes the motion of objects, and dynamics, which explores the causes of that motion. The laws of motion, formulated by Sir Isaac Newton, are foundational to classical mechanics and have applications in diverse fields, including engineering, astronomy, and everyday life. By applying these principles, physicists can analyze everything from the trajectory of a thrown ball to the orbits of planets.
+          
+          Another significant area of physics is thermodynamics, which focuses on heat, energy, and the laws governing their interactions. It explores concepts such as temperature, heat transfer, and the behavior of gases, liquids, and solids under different conditions. The laws of thermodynamics have far-reaching implications, influencing everything from the efficiency of engines to the understanding of climate change. Overall, physics provides a critical lens through which to examine and understand the universe, driving advancements in technology and enriching our comprehension of the natural world.
+        </p>
+        </div>
+        </section>
+        <br>
+        <section class="bg-white-100 py-10 px-6" style="margin-top: 25px;">
+          <div class="max-w-screen-lg mx-auto text-center">
+            <h2 class="text-4xl font-bold text-white-700 mb-4" style="color:aqua">PHYSICS VIDEO CLASSES</h2>
+          </div>
+      </section>
+      <br>
+        
+    
+    
+    
+    
+        <!-- Container for the videos -->
+        <div class="video-container">
+            <!-- Replace VIDEO_ID with actual YouTube video IDs -->
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7z1yXtSh9gc?si=wY2_rVlxy5Obur-7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oxS1K0Tfg3g?si=YjiF_SEE5WFA-Z6L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/49u31HSnqpk?si=rnMmRHQFG4BZOZOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FY6sURw-Ymw?si=ERBEWHyANwpmPcyj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZCDnmNCqzjE?si=em3MEWoTIhPvBfVi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vV4ZzXdtWrM?si=g7PwojQuK7r7JB62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PihMwV7oDLs?si=seHkFT894cNNK0ZC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p59Mz6YEt4g?si=Pk8mubs8OiBjpShf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+       
+        <footer style="text-align: center; padding: 20px; background-color: #e9ad0c;">
+          <p>© 2024 IT CLUB WEBPAGE. All Rights Reserved.</p>
+          <p>Designed and maintained by the IT Club Jnv Kollam | For queries, contact: <a href="mailto:zedafs26th@example.com">zedafs26th@gmail.com</a></p>
+        </footer>
+              <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+              
+            </body>
+          </html>
+       
